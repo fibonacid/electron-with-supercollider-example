@@ -1,5 +1,5 @@
 {
-  "name": "electron-with-sclang-example",
+  "name": "electron-with-supercollider-example",
   "version": "1.0.0",
   "description": "An example repo to build an electron app that uses supercollider's sclang binary",
   "main": "src/main.js",
