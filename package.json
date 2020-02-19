@@ -1,0 +1,14 @@
+{
+  "name": "electron-with-sclang-example",
+  "version": "1.0.0",
+  "description": "An example repo to build an electron app that uses supercollider's sclang binary",
+  "main": "main.js",
+  "author": "Lorenzo Rivosecchi <lorenzorivosecchi3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^8.0.1"
+  }
+}
