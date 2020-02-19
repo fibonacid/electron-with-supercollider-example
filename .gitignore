@@ -1,3 +1,4 @@
 node_modules
 vendor/mac/SuperCollider/*
 !vendor/mac/SuperCollider/README.md
+dist
