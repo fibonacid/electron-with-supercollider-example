@@ -1,0 +1,10 @@
+appId: my.app
+files:
+  - node_modules/**/*
+  - src/**/*
+mac:
+  files:
+    - vendor/mac/**/*
+  asarUnpack:
+    - vendor/mac
+    - node_modules
