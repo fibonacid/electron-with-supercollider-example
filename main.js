@@ -1,5 +1,8 @@
 const { app, BrowserWindow } = require("electron");
 
+require("hazardous");
+const path = require("path");
+
 let mainWindow;
 
 app.on("ready", () => {
