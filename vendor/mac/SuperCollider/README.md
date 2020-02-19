@@ -1,3 +1,6 @@
+Copy the resources from the SuperCollider app and reorganize them based on the following structure.
+
+```
 .
 ├── Frameworks
 │   ├── QtConcurrent.framework
@@ -56,3 +59,4 @@
     ├── sounds
     ├── supernova
     └── translations
+```
