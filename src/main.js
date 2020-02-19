@@ -1,7 +1,8 @@
-const { app, BrowserWindow } = require("electron");
+'use strict';
 
-require("hazardous");
-const path = require("path");
+require ('hazardous');
+const path = require ('path');
+const { app, BrowserWindow } = require("electron");
 
 let mainWindow;
 
@@ -15,7 +16,7 @@ app.on("ready", () => {
 });
 
 function vendor(filepath) {
-  return path.join(__dirname, "./vendor/mac", filepath);
+  return path.join(__dirname, "../vendor/mac", filepath);
 }
 
 const sc = require("supercolliderjs");
