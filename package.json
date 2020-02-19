@@ -6,7 +6,8 @@
   "author": "Lorenzo Rivosecchi <lorenzorivosecchi3@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder -c.mac.identity=null"
   },
   "devDependencies": {
     "electron": "^8.0.1",
